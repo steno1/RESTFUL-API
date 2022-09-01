@@ -58,7 +58,7 @@ app.route("/articles")
             }
         })
     });
-    //get specific route
+    //get, post, put, patch and delete specific routes
     app.route("/articles/:articleTitle")
     
     .get(function(req, res){
